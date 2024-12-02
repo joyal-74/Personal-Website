@@ -1,0 +1,39 @@
+@media (min-width: 992px) {
+    .main-area {
+      height: 90vh !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-area {
+        height: 90svh !important;
+    }
+}
+.profile-img{
+    filter: opacity(70%);
+}
+
+.card {
+    border-radius: 20px !important;
+}
+.card:hover {
+    box-shadow: 1px 1px 25px #69aad4;
+}
+.navbar {
+    box-shadow: 1px 1px 5px 1px #69aad4;
+}
+.contact-btn:hover {
+    background-color: transparent !important;
+    color: #0ccaf0 !important;
+}
+.items {
+    background-color: #cceaff4f;
+    border-radius: 10px;
+    border: 1px solid #0ccaf0;
+}
+.items::placeholder {
+    color: #0ccaf08f !important;
+}
+
+ /* Media query for large screens */
+
